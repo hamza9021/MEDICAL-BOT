@@ -7,7 +7,7 @@ const ChatInterface = () => {
     {
       id: 1,
       role: 'system',
-      content: 'Hello! I am your medical assistant. How can I help you regarding your health today?'
+      content: 'My algorithms are designed to heal, but your smile is the only medicine that matters. Stay healthy, Mishu and keep smiling!💕🫠—my entire system depends on you.'
     }
   ]);
   const [input, setInput] = useState('');
