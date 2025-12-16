@@ -32,7 +32,7 @@ const ChatInterface = () => {
     setIsLoading(true);
 
     try {
-      const response = await axios.post('http://localhost:3000/api/chat', {
+      const response = await axios.post(import.meta.env.VITE_BACKEND_URL, {
         message: input
       });
 
